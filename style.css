@@ -134,6 +134,11 @@ html, body{
         padding-inline: 10px;
         list-style-type: none;
 
+
+    }
+
+    #ProjectForm p{
+        text-align: center;
     }
     #formContainer{
         background-color: black;
