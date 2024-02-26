@@ -90,6 +90,7 @@ html, body{
      text-align: center;
      font-size: 20px;
      padding-block: 10px;
+     color: white;
     }
    
     .projectItem{
@@ -126,8 +127,9 @@ html, body{
       }
       #ProjectForm ul{ 
       display: flex;
-      padding-block:10px;
+      padding-block:15px;
       margin: 0;
+      justify-content: center;
     }
 
     #ProjectForm ul li {
@@ -146,21 +148,45 @@ html, body{
         width: 400px;
     }
 
+    #formContainer  button{
+        padding: 10px;
+        color: blue;
+        margin-block: 10px;
+    }
+
+    #formContainer  label{
+        padding-inline: 20px;
+    }
+    #footerContainer{
+        text-align: center;
+        background-color: black;
+        color: white;
+        align-items: center;
+    }
+    .formInput {
+        display: block
+        
+    }
+    #formContainer input{
+        padding-block: 10px;
+        padding-inline: 9px;
+        width:230px;
+    }
+
 
 @media screen and (max-width:768px) {
 #landingContent p {
     width: 90%;
     font-size: 15px;
     padding-block: 10px;
-
-
-
 }
 #aboutContainer{
     display: block;
+    height: auto;
 }
 #aboutContent {
-    width: 100%;text-align: center;
+    width: 100%;
+    text-align: center;
     padding: 10px;
 
 } 
@@ -193,6 +219,18 @@ html, body{
 .projectItem{
   margin: 20px;
   width:320px;
+}
+#ProjectForm{
+    width: 100%;
+}
+
+#footerContainer{
+    display: block;
+
+}
+#formContainer{
+    width: 100%;
+
 }
 
 
